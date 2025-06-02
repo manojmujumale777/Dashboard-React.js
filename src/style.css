@@ -1,0 +1,90 @@
+
+/* Side bar css  */
+.side-bar{
+    background-color: #202947;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.dashboard-section{
+    overflow-y: auto;
+    height: 100vh;
+}
+.span{
+    color: #b2b8c7;
+}
+
+.image{
+    height: 40px;
+    width: 40px;
+}
+
+/* Search Bar CSS  */
+.search-input{
+    width: 250px;
+    border-radius: 5px;
+    padding: 8px 10px;
+    border: 1px solid black;
+}
+
+/* Chart CSS */
+
+.recharts-legend-wrapper{
+    display: none;
+}
+
+.value{
+    background-color: #21CE9E;
+}
+.main{
+    background-color: #F9FAFC;
+}
+
+.chart{
+    height: 50px;
+}
+
+.logo{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.recharts-tooltip-wrapper recharts-tooltip-wrapper-right recharts-tooltip-wrapper-bottom{
+    display: none;
+}
+
+.recharts-default-tooltip{
+    display: none;
+}
+
+
+/* Bottom Arrow CSS  */
+.arrow{
+    position: fixed;
+    inset-block-end: 10px;
+    inset-inline-end: 20px;
+    text-align: center;
+    z-index: 10000;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.3rem;
+    box-shadow: none;
+    z-index: 1000 !important;
+}
+
+@media (min-width:992px){
+    .search-input{
+        width: 300px;
+    }
+}
+
+@media (min-width:1200px){
+    .search-input{
+        width: 450px;
+    }
+}
+
+
+
+
